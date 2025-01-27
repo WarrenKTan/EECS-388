@@ -32,7 +32,7 @@ int main() {
                 printf("%d", input1 * input2);
                 break;
             case '/':
-                printf("%lf", ((double) input1 / (double) input2));
+                printf("%0.2lf", ((double) input1 / (double) input2));
                 break;
             default:
                 printf("\'%c\' is not an accepted operation.", operation);

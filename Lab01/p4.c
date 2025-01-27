@@ -12,7 +12,7 @@ int main() {
 
     length = strlen(input);
     
-    // switch each index of the string and convert to binary representation
+    // switch each digit and print binary representation
     for(int i = 0; i < length; i++){
         switch(input[i]){
             case '0':
