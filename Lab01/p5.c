@@ -51,6 +51,7 @@ int repeatedElements(int* array, int arraySize){
 }
 
 int main() {
+    // define variables
     int arraySize;
 
     printf("How big is the array? ");
@@ -58,7 +59,7 @@ int main() {
 
     // create array with size given by user
     int array[arraySize];
-
+    
     for(int i = 0; i < arraySize; i++){
         printf("Enter element %d: ", i + 1);
         scanf("%d", &array[i]);
